@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Eeyor's berichtje</title>
+          <!--test meta voor scherm-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--link naar stylesheet-->
+        <link  rel="stylesheet" type="text/css" href="styles.css">
+        <!--Diverse font types-->
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+         <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&family=Yellowtail&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+        <header class="header">
+            <h1>Eeyore's Downpage.</h1>
+        </header>
+
+        <nav class="navigate">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Sombere_raad.html">Sombere raad</a></li>
+                    <li><a href="About.html">Over mij</a></li>
+                    <li><a href="form.html">Een opbeurend berichtje</a></li>
+                </ul>
+            </nav>
+        
+        <main class="main">
+            <h2>Beur Eeyore op!</h2>
+            <image>
+            <a href="images/vertel.jpg"><img src="images/vertel.jpg " alt="keep on smiling"/> </a> 
+            </image>
+
+            <article>
+                <p>Eeyore is nu eenmaal Eeyore. Hij zal altijd somber en neerslachtig blijven. Toch zal hij het leuk vinden als je een lief berichtje voor hem achterlaat. Dan weet ik zeker dat er wel weer een glimlach op zijn gezicht komt.</p>
+            </article>
+
+            <form name="contact" method="POST" netlify data-netlify="true">
+                <p>
+                <label for="name">Naam:</label>
+                 <input type="text" id="name" name="name">
+                 </p>
+                 <p>
+                 <label for="email">E-mail:</label>
+                 <input type="email" id="email" name="email">
+                 </p>
+                 <p>
+                 <label for="title">Titel:</label>
+                 <input type="text" id="title" name="titel">
+                 </p>
+                 <p>
+                <label for="text">Vertel iets liefs:</label><br>
+                <textarea id="text" name="text" rows="10" cols="30"></textarea>
+                 </p>
+                 <p>
+                  <input type="submit" value="verzend">
+                  </p>
+            </form>  
+        </main>
+
+        <footer class="footer">
+            <h5>Deze pagina is geheel gemaakt voor de HTML en CSS opdracht voor de Wink Academy Front-end Developer.</h5>
+        </footer>
+        </div>
+    </body>
+</html>
